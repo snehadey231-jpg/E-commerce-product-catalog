@@ -531,3 +531,238 @@ footer p {
     color: #087f5b;
     margin: 15px 20px;
 }
+
+.product-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-card h3 {
+    font-size: 18px;
+}
+
+.product-brand {
+    font-size: 14px;
+}
+
+.product-price {
+    font-size: 16px;
+}
+
+
+/* Flipkart Style Product Listing */
+
+.flip-product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 1150px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.flip-product-card {
+    display: flex;
+    position: relative;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 25px;
+    gap: 35px;
+    min-height: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.flip-product-photo {
+    width: 240px;
+    min-width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flip-product-photo img {
+    width: 100%;
+    height: 240px;
+    object-fit: contain;
+}
+
+.flip-product-details {
+    flex: 1;
+    position: relative;
+    padding-right: 35px;
+}
+
+.flip-product-details h2 {
+    font-size: 22px;
+    color: #212121;
+    margin: 5px 0 12px;
+    font-weight: 500;
+}
+
+.flip-ram {
+    font-size: 17px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.flip-wishlist {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 32px;
+    text-decoration: none;
+    color: #333;
+}
+
+.flip-rating {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.flip-rating strong {
+    background: #e8f5e9;
+    color: #16833b;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+.flip-rating span {
+    color: #777;
+    font-size: 14px;
+}
+
+.flip-rating b {
+    color: #147b43;
+    background: #f0f7f2;
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.flip-price {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.flip-discount {
+    color: #16833b;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.flip-price del {
+    color: #888;
+    font-size: 19px;
+}
+
+.flip-price strong {
+    color: #222;
+    font-size: 27px;
+}
+
+.flip-bank {
+    color: #174ca3;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.flip-bank span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.flip-exchange {
+    color: #444;
+    font-size: 17px;
+    margin: 12px 0;
+}
+
+.flip-delivery {
+    color: #444;
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+.flip-delivery strong {
+    color: #222;
+}
+
+.flip-brand {
+    color: #777;
+    font-size: 14px;
+}
+
+.flip-cart-button {
+    display: inline-block;
+    background: #ff9f00;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.flip-cart-button:hover {
+    background: #e68e00;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 650px) {
+
+    .flip-product-card {
+        flex-direction: column;
+        gap: 15px;
+        padding: 18px;
+    }
+
+    .flip-product-photo {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .flip-product-photo img {
+        height: 190px;
+    }
+
+    .flip-product-details {
+        padding-right: 25px;
+    }
+
+    .flip-product-details h2 {
+        font-size: 18px;
+    }
+
+    .flip-price strong {
+        font-size: 22px;
+    }
+
+    .flip-bank {
+        font-size: 19px;
+    }
+
+    .retech-header {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+}
