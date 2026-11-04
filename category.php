@@ -290,14 +290,10 @@ if (!isset($products[$category])) {
                         alt="<?php echo htmlspecialchars($product['name']); ?>"
                     >
 
-<<<<<<< HEAD
 
                 <h3>
                     <?php echo htmlspecialchars($product['name']); ?>
                 </h3>
-=======
-                </div>
->>>>>>> 639080440903073a350344c0cb39459c48ec5935
 
                 <div class="flip-product-details">
 
