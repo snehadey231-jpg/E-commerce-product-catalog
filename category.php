@@ -206,6 +206,7 @@ if (!isset($products[$category])) {
 
 </div>
 
+
                 <h3>
                     <?php echo htmlspecialchars($product['name']); ?>
                 </h3>
