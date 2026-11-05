@@ -1,4 +1,3 @@
-
 <?php
 
 $category = $_GET['category'] ?? 'smartphones';
@@ -6,6 +5,7 @@ $category = $_GET['category'] ?? 'smartphones';
 $products = [
 
     'smartphones' => [
+
         [
             'name' => 'Vivo Smartphone',
             'brand' => 'Vivo',
@@ -18,6 +18,7 @@ $products = [
             'bank' => 'Special Bank Offer',
             'exchange' => 'Up to ₹5,000 Off on Exchange'
         ],
+
         [
             'name' => 'Redmi Smartphone',
             'brand' => 'Redmi',
@@ -30,183 +31,188 @@ $products = [
             'bank' => 'Special Bank Offer',
             'exchange' => 'Up to ₹4,000 Off on Exchange'
         ],
+
         [
             'name' => 'Motorola Smartphone',
             'brand' => 'Motorola',
             'price' => 14999,
             'old_price' => 17999,
-            'image' => 'motorola.jpg',
+            'image' => 'Motorola.jpg',
             'ram' => '8 GB RAM',
             'rating' => '4.3',
-            'reviews' => '900+',
+            'reviews' => '1K+',
             'bank' => 'Special Bank Offer',
-            'exchange' => 'Up to ₹5,000 Off on Exchange'
+            'exchange' => 'Exchange Offer Available'
         ],
+
         [
-            'name' => 'iPhone',
+            'name' => 'Apple iPhone',
             'brand' => 'Apple',
             'price' => 49999,
             'old_price' => 59999,
-            'image' => 'iphone.jpg',
+            'image' => 'apple.jpg',
             'ram' => '128 GB Storage',
             'rating' => '4.7',
-            'reviews' => '3.5K+',
+            'reviews' => '3K+',
             'bank' => 'Special Bank Offer',
-            'exchange' => 'Up to ₹10,000 Off on Exchange'
+            'exchange' => 'Exchange Offer Available'
         ],
+
         [
             'name' => 'Samsung Smartphone',
             'brand' => 'Samsung',
             'price' => 17999,
             'old_price' => 21999,
-            'image' => 'samsung.jpg',
+            'image' => 'Samsung.jpg',
             'ram' => '8 GB RAM',
             'rating' => '4.6',
             'reviews' => '1.6K+',
             'bank' => 'Special Bank Offer',
-            'exchange' => 'Up to ₹6,000 Off on Exchange'
+            'exchange' => 'Up to ₹5,000 Off on Exchange'
         ],
+
         [
             'name' => 'OnePlus Smartphone',
             'brand' => 'OnePlus',
             'price' => 29999,
             'old_price' => 34999,
-            'image' => 'oneplus.jpg',
-            'ram' => '12 GB RAM',
-            'rating' => '4.6',
+            'image' => 'OnePlus.jpg',
+            'ram' => '8 GB RAM',
+            'rating' => '4.5',
             'reviews' => '2K+',
             'bank' => 'Special Bank Offer',
-            'exchange' => 'Up to ₹7,000 Off on Exchange'
+            'exchange' => 'Exchange Offer Available'
         ]
+
     ],
 
     'laptops' => [
+
         [
             'name' => 'HP Laptop',
             'brand' => 'HP',
             'price' => 45999,
-            'old_price' => 52999,
+            'old_price' => 49999,
             'image' => 'laptop.jpg',
-            'ram' => '16 GB RAM',
-            'rating' => '4.4',
-            'reviews' => '800+',
+            'ram' => '8 GB RAM',
+            'rating' => '4.5',
+            'reviews' => '1K+',
             'bank' => 'Special Bank Offer',
             'exchange' => 'Exchange Offer Available'
         ],
+
         [
             'name' => 'Dell Laptop',
             'brand' => 'Dell',
             'price' => 49999,
-            'old_price' => 57999,
+            'old_price' => 54999,
             'image' => 'laptop.jpg',
             'ram' => '16 GB RAM',
-            'rating' => '4.5',
-            'reviews' => '700+',
+            'rating' => '4.4',
+            'reviews' => '900+',
             'bank' => 'Special Bank Offer',
             'exchange' => 'Exchange Offer Available'
         ],
+
         [
             'name' => 'Lenovo Laptop',
             'brand' => 'Lenovo',
             'price' => 42999,
-            'old_price' => 49999,
+            'old_price' => 47999,
             'image' => 'laptop.jpg',
             'ram' => '8 GB RAM',
             'rating' => '4.3',
-            'reviews' => '600+',
-            'bank' => 'Special Bank Offer',
-            'exchange' => 'Exchange Offer Available'
-        ],
-        [
-            'name' => 'ASUS Laptop',
-            'brand' => 'ASUS',
-            'price' => 52999,
-            'old_price' => 59999,
-            'image' => 'laptop.jpg',
-            'ram' => '16 GB RAM',
-            'rating' => '4.5',
-            'reviews' => '500+',
+            'reviews' => '800+',
             'bank' => 'Special Bank Offer',
             'exchange' => 'Exchange Offer Available'
         ]
+
     ],
 
     'headphones' => [
+
         [
             'name' => 'Sony Headphones',
             'brand' => 'Sony',
             'price' => 2999,
             'old_price' => 3999,
             'image' => 'headphones.jpg',
-            'ram' => 'Wireless Headphones',
+            'ram' => 'Wireless',
             'rating' => '4.5',
-            'reviews' => '900+',
+            'reviews' => '1K+',
             'bank' => 'Special Bank Offer',
-            'exchange' => 'Limited Time Offer'
+            'exchange' => 'Special Offer Available'
         ],
+
         [
             'name' => 'JBL Headphones',
             'brand' => 'JBL',
             'price' => 2499,
-            'old_price' => 3499,
+            'old_price' => 2999,
             'image' => 'headphones.jpg',
-            'ram' => 'Wireless Headphones',
+            'ram' => 'Wireless',
             'rating' => '4.4',
-            'reviews' => '800+',
+            'reviews' => '900+',
             'bank' => 'Special Bank Offer',
-            'exchange' => 'Limited Time Offer'
+            'exchange' => 'Special Offer Available'
         ],
+
         [
             'name' => 'boAt Headphones',
             'brand' => 'boAt',
             'price' => 1499,
             'old_price' => 1999,
             'image' => 'headphones.jpg',
-            'ram' => 'Wireless Headphones',
+            'ram' => 'Wireless',
             'rating' => '4.3',
-            'reviews' => '1K+',
+            'reviews' => '700+',
             'bank' => 'Special Bank Offer',
-            'exchange' => 'Limited Time Offer'
+            'exchange' => 'Special Offer Available'
         ]
+
     ],
 
     'cameras' => [
+
         [
             'name' => 'Canon Camera',
             'brand' => 'Canon',
             'price' => 35999,
-            'old_price' => 42999,
+            'old_price' => 39999,
             'image' => 'camera.jpg',
             'ram' => 'Digital Camera',
-            'rating' => '4.6',
-            'reviews' => '500+',
+            'rating' => '4.5',
+            'reviews' => '800+',
             'bank' => 'Special Bank Offer',
             'exchange' => 'Exchange Offer Available'
         ],
+
         [
             'name' => 'Nikon Camera',
             'brand' => 'Nikon',
             'price' => 39999,
-            'old_price' => 46999,
+            'old_price' => 44999,
             'image' => 'camera.jpg',
             'ram' => 'Digital Camera',
-            'rating' => '4.5',
-            'reviews' => '400+',
+            'rating' => '4.4',
+            'reviews' => '700+',
             'bank' => 'Special Bank Offer',
             'exchange' => 'Exchange Offer Available'
         ],
+
         [
             'name' => 'Sony Camera',
             'brand' => 'Sony',
             'price' => 42999,
-            'old_price' => 49999,
+            'old_price' => 47999,
             'image' => 'camera.jpg',
             'ram' => 'Digital Camera',
-            'rating' => '4.7',
-            'reviews' => '600+',
+            'rating' => '4.6',
+            'reviews' => '1K+',
             'bank' => 'Special Bank Offer',
             'exchange' => 'Exchange Offer Available'
         ]
+
     ]
 
 ];
@@ -228,20 +234,22 @@ if (!isset($products[$category])) {
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>
-        <?php echo htmlspecialchars($categoryNames[$category]); ?>
-        | ReTech
+        <?php echo htmlspecialchars($categoryNames[$category]); ?> | ReTech
     </title>
 
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
 
-<header class="retech-header">
+<header>
 
     <div class="logo">
         ReTech<span>.</span>
@@ -261,6 +269,7 @@ if (!isset($products[$category])) {
 <section class="products-section">
 
     <div class="products-heading">
+
         <p class="tagline">OUR COLLECTION</p>
 
         <h1>
@@ -268,99 +277,59 @@ if (!isset($products[$category])) {
         </h1>
 
         <p>Explore our latest products.</p>
+
     </div>
 
-    <div class="flip-product-list">
+    <div class="product-container">
 
         <?php foreach ($products[$category] as $product): ?>
 
-            <?php
-                $discount = round(
-                    (($product['old_price'] - $product['price'])
-                    / $product['old_price']) * 100
-                );
-            ?>
+            <div class="product-card">
 
-            <div class="flip-product-card">
-
-                <div class="flip-product-photo">
+                <div class="product-image">
 
                     <img
                         src="assets/images/<?php echo htmlspecialchars($product['image']); ?>"
                         alt="<?php echo htmlspecialchars($product['name']); ?>"
                     >
 
+                </div>
 
                 <h3>
                     <?php echo htmlspecialchars($product['name']); ?>
                 </h3>
 
-                <div class="flip-product-details">
+                <p class="product-brand">
+                    Brand:
+                    <?php echo htmlspecialchars($product['brand']); ?>
+                </p>
 
-                    <a href="login.php" class="flip-wishlist" title="Add to Wishlist">
-                        ♡
-                    </a>
+                <p>
+                    <?php echo htmlspecialchars($product['ram']); ?>
+                </p>
 
-                    <h2>
-                        <?php echo htmlspecialchars($product['name']); ?>
-                    </h2>
+                <p>
+                    ⭐ <?php echo htmlspecialchars($product['rating']); ?>
+                    (<?php echo htmlspecialchars($product['reviews']); ?>)
+                </p>
 
-                    <p class="flip-ram">
-                        <?php echo htmlspecialchars($product['ram']); ?>
-                    </p>
+                <p class="product-price">
+                    ₹<?php echo number_format($product['price']); ?>
+                </p>
 
-                    <div class="flip-rating">
-                        <strong>
-                            <?php echo htmlspecialchars($product['rating']); ?>
-                            ★
-                        </strong>
+                <p>
+                    <del>
+                        ₹<?php echo number_format($product['old_price']); ?>
+                    </del>
+                </p>
 
-                        <span>
-                            <?php echo htmlspecialchars($product['reviews']); ?>
-                            Ratings
-                        </span>
+                <p><?php echo htmlspecialchars($product['bank']); ?></p>
 
-                        <b>✔ Assured</b>
-                    </div>
+                <p><?php echo htmlspecialchars($product['exchange']); ?></p>
 
-                    <div class="flip-price">
-
-                        <span class="flip-discount">
-                            ↓<?php echo $discount; ?>%
-                        </span>
-
-                        <del>
-                            ₹<?php echo number_format($product['old_price']); ?>
-                        </del>
-
-                        <strong>
-                            ₹<?php echo number_format($product['price']); ?>
-                        </strong>
-
-                    </div>
-
-                    <p class="flip-bank">
-                        WOW! ₹<?php echo number_format($product['price'] - 500); ?>
-                        <span>with Bank Offer</span>
-                    </p>
-
-                    <p class="flip-exchange">
-                        <?php echo htmlspecialchars($product['exchange']); ?>
-                    </p>
-
-                    <p class="flip-delivery">
-                        Get it by <strong>Tomorrow</strong>
-                    </p>
-
-                    <p class="flip-brand">
-                        Brand: <?php echo htmlspecialchars($product['brand']); ?>
-                    </p>
-
-                    <a href="login.php" class="flip-cart-button">
-                        Add to Cart
-                    </a>
-
-                </div>
+                <a href="login.php" class="category-explore">
+                    Add to Cart
+                </a>
 
             </div>
 
@@ -371,9 +340,13 @@ if (!isset($products[$category])) {
 </section>
 
 <footer>
+
     <h2>ReTech<span>.</span></h2>
+
     <p>Give Technology a Second Life.</p>
+
     <p>© 2026 ReTech. All Rights Reserved.</p>
+
 </footer>
 
 </body>
