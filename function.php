@@ -4,6 +4,9 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+// Database Connection
+require_once __DIR__ . '/database.php';
+
 // Generate CSRF Token
 function csrf_token() {
 
@@ -18,7 +21,18 @@ function csrf_token() {
 function verify_csrf_token($token) {
 
     return isset($_SESSION['csrf_token']) &&
+           is_string($token) &&
            hash_equals($_SESSION['csrf_token'], $token);
+}
+
+// Escape HTML Output
+function e($value) {
+
+    return htmlspecialchars(
+        (string)$value,
+        ENT_QUOTES,
+        'UTF-8'
+    );
 }
 
 ?>
